@@ -10,7 +10,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 # Ignore everything inside the dataset folder, but keep the folder structure via .gitkeep
-dataset/*
 !dataset/.gitkeep
 
 # Ignore temp files or folders
