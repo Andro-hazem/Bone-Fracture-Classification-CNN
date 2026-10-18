@@ -3,6 +3,7 @@ dataset/
 __pycache__/
 .venv/
 .idea/
+.idea
 .ipynb_checkpoints/
 
 # System files
@@ -10,7 +11,7 @@ __pycache__/
 Thumbs.db
 # Ignore everything inside the dataset folder, but keep the folder structure via .gitkeep
 dataset/*
-!dataset/**/.gitkeep
+!dataset/.gitkeep
 
 # Ignore temp files or folders
 temp/
